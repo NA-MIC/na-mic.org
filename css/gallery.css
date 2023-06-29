@@ -1,0 +1,186 @@
+img{border:none;}
+
+.e2_photo_gallery {
+ width:490px;
+ position:relative;
+ margin: 0px;
+ min-width:490px;
+ color:#fff;
+}
+
+.toolTipImg{
+  position:relative;
+  top:3px;
+  width:59px;
+}
+
+.e2_photo_gallery .hd .c,
+.e2_photo_gallery .ft .c {
+ font-size:1px; /* ensure minimum height */
+ height:13px;
+}
+
+.e2_photo_gallery .ft .c {
+ height:14px;
+}
+
+.e2_photo_gallery .bd .c .s {
+ margin:0px 0px 0px 0px;
+ padding:0px;
+}
+
+/* content-specific */
+
+.e2_photo_gallery h1 {
+ /* header */
+ font-size:2em;
+ margin:0px;
+ padding:0px;
+ margin-top:-0.6em;
+}
+
+.e2_photo_gallery p {
+ margin:0.5em 0px 0px 0px;
+ padding:0px;
+ font:0.95em/1.5em arial,tahoma,"sans serif";
+}
+
+html>body .e2_photo_gallery pre {
+ font-size:1.1em;
+}
+
+
+#main_image_wrapper{position:relative;border:1px solid #CCC; width:488px; height:329px;background: white  url(e2_gallery/rsrc/loading_image.gif) no-repeat 50% 50%;}
+#imgloader{text-align:center;vertical-align:middle;}
+#thumbbox{border:solid 1px #CCC;text-align:center;clear:both;width:488px;position:relative;top:0px;padding:0px;background-color:#EAEAEA;}
+#thumb_container{position:relative;overflow:hidden;width:385px;height:69px;margin:5px 0px 0 56px; padding-bottom:5px;}
+#thumbs img{margin-right:0px;vertical-align:top;}
+#thumbs a img{border:1px solid #FFF;}
+/* #thumbs a:hover img{border:1px solid #333;} */
+/* #thumbs a:hover{color:red;} */
+#photocount{
+  color:grey;
+  font-size:10px;
+  position:static;
+  text-align: left;
+  left:13px;
+  height:20px;
+  padding-left:55px;
+}
+#back{position:absolute;top:0;left:0;visibility:hidden;z-index:1001;}
+#back2{position:absolute;top:10px;left:12px;visibility:hidden;z-index:1001;}
+#more{position:absolute;top:0;left:458px;float:right;z-index:1001;}
+#more2{position:absolute;top:10px;left:460px;float:right;z-index:1001;}
+.morelink:hover{font-size:11px;color:#FFF;text-decoration:underline;}
+#thumbgall{position:absolute;left:0;top:0;white-space:nowrap;z-index:1000;}
+#widthbox{position:relative;display:inline;left:0;top:0;padding:1px;}
+#imgbox{width:80px;height:80px;display:inline;position:absolute;text-align:center;}
+#iptc_btn{width:100%;text-align:right;position:absolute;left:0;top:0px;z-index:999;}
+#iptc_info{
+ bottom:155px;
+ left:220px;
+ /*height:25px;*/
+ width:488px;
+ background-color:#EAEAEA;
+ color:black;
+ font-size:10px;
+ line-height:140%;
+ text-align:left;filter:alpha(opacity=0);-moz-opacity:0;opacity:0;border:1px solid #CCC;}
+.iptc_left{float:left;text-align:right;color:#FFF;padding:0 0 0 2%;}
+.iptc_right{float:left;text-align:left;position:relative;left:8px;}
+#rightmore li a{background:url(e2_gallery/designs/gray/right_more.gif) no-repeat;display:block;color:#fff;text-decoration:none;width:100%;padding:0;}
+/*#rightmore li a:hover{background:url(e2_gallery/designs/gray/right_more_over.gif) no-repeat;color:#fff;height:69px;}*/
+#leftmore li a{background:url(e2_gallery/designs/gray/left_more.gif) no-repeat;display:block;color:#fff;text-decoration:none;width:100%;padding:0;}
+/*#leftmore li a:hover{background:url(e2_gallery/designs/gray/left_more_over.gif) no-repeat;color:#fff;height:69px;}*/
+
+#rightmore2 li a{background:url(../img/arrows/RightArrowActive.png) no-repeat;display:block;color:#fff;text-decoration:none;width:100%;padding:0;}
+#rightmore2 li a:hover{background:url(../img/arrows/RightArrowActiveMouseOver.png) no-repeat;color:#fff;height:57px;}
+#leftmore2 li a{background:url(../img/arrows/LeftArrowActive.png) no-repeat;display:block;color:#fff;text-decoration:none;width:100%;padding:0;}
+#leftmore2 li a:hover{background:url(../img/arrows/LeftArrowMouseOver.png) no-repeat;color:#fff;height:57px;}
+
+/*
+#rightmore2 li a{background:url(e2_gallery/designs/gray/right_more2.gif) no-repeat;display:block;color:#fff;text-decoration:none;width:100%;padding:0;}
+#rightmore2 li a:hover{background:url(e2_gallery/designs/gray/right_more_over2.gif) no-repeat;color:#fff;height:69px;}
+#leftmore2 li a{background:url(e2_gallery/designs/gray/left_more2.gif) no-repeat;display:block;color:#fff;text-decoration:none;width:100%;padding:0;}
+leftmore2 li a:hover{background:url(e2_gallery/designs/gray/left_more_over2.gif) no-repeat;color:#fff;height:69px;}
+*/
+
+.spacing{padding:1px;background-color:#F2f2f2;}
+.morelink:link,.morelink:visited{font-size:11px;color:#FFF;text-decoration:none;}
+#rightmore,#leftmore{color:#333;height:69px;width:16px;padding:0;}
+#rightmore ul,#leftmore ul{list-style:none;border:none;height:69px;margin:0;padding:0;}
+#rightmore li,#leftmore li{height:69px;margin:0;}
+#rightmore2,#leftmore2{color:#333;height:57px;width:27px;padding:0;}
+#rightmore2 ul,#leftmore2 ul{list-style:none;border:none;height:69px;margin:0;padding:0;}
+#rightmore2 li,#leftmore2 li{height:69px;margin:0;}
+html>body #rightmore li a,html>body #rightmore2 li a,html>body #leftmore,html>body #leftmore2 li a{width:auto;}
+#pn_overlay{position:absolute; top:0; left:0; width:100%; height:100%; z-index:998;}
+#pn_overlay2{position:absolute; top:0; left:0; width:100%; height:100%; z-index:999;}
+#prev{
+  width: 10%;
+  height: 100%;
+  /* background: transparent url(e2_gallery/rsrc/blank.gif) no-repeat;*/ /* Trick IE into showing hover */
+  outline:none;
+  }
+#next{
+  width: 10%;
+  height: 100%;
+  /* background: transparent url(e2_gallery/rsrc/blank.gif) no-repeat;*/ /* Trick IE into showing hover */
+  outline:none;
+  position:relative;
+  left:20px;
+  }
+#prev { left: 0; float: left; outline: none; -moz-outline: none; visibility:hidden;}
+#next { right: 0; float: right; outline: none; -moz-outline: none;}
+/*
+#prev:hover, #prev:visited:hover { background: url(e2_gallery/rsrc/prev.gif) left 50% no-repeat; }
+#next:hover, #next:visited:hover { background: url(e2_gallery/rsrc/next.gif) right 50% no-repeat; }
+*/
+#imgtitle{width:488px; font-size:11px; text-align:center; color:black;float:right;}
+#imgtitle h2{font-size:1.3em; margin:0; padding:0}
+#thumbtoggler {
+  text-align: right;
+  float: right;
+  width: 48%;
+  right:0;
+  z-index:1100;
+}
+#thumbdisplay {
+  width: 488px;
+}
+.clear{}
+#e2link {font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  padding:5px 0;
+  color: #FFFFFF;
+  text-align:left;}
+#e2link a {
+  color: #FFFFFF;
+  text-decoration:none
+}
+
+.tooltip {
+  color: #fff;
+  width: 140px;
+  z-index: 15000;
+  text-align:left;
+}
+
+.tooltip h4 {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px;
+  padding: 8px 8px 2px;
+  background:#000;
+}
+
+.tooltip p {
+  font-size: 11px;
+  padding: 1px 8px 8px;
+  margin:0px;
+  background: #000;
+}#thumbhide {
+  position: relative;
+
+}
+

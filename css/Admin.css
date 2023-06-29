@@ -1,0 +1,21 @@
+BODY {
+  font-size: 10;
+  font-family: arial, helvetica, sans-serif;
+  color: #291F40;
+}
+
+
+DIV.NAMIC_Admin_Body {
+  margin-left: 1em;
+}
+
+TABLE.NAMIC_Admin_Table {
+  border-bottom: 1px #CCCCEE solid;
+}
+
+TH.NAMIC_Admin_Table_TopRow {
+  text-align: left;
+  border-bottom: 1px #CCCCEE solid;
+  background-color: #EEEEFF;
+}
+

@@ -1,0 +1,7 @@
+#content .photo {
+  width:150px;
+}
+
+#home #wrapper #toolsnav, #home #wrapper #searchform {
+display:none;
+}

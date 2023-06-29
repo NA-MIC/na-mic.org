@@ -1,0 +1,494 @@
+/* Setting a few things to zero */
+body, html, h1, h2, h3, h4, h5, h6, div, ol, ul, li, ul li, li a, dl, dt, dd, form, fieldset, img, p, a {
+  margin:0;
+  padding:0;
+}
+
+input {
+  margin:0pt;
+  padding:0pt;
+}
+
+ul, li {
+  list-style:none;
+}
+
+table, tr, td, th {
+  empty-cells: show;
+}
+
+img {
+  border:none;
+}
+
+/* min-width hack soooooo nececesarry! thank you JB */
+* html .container {
+  margin-left: -800px;
+  position: relative;
+}
+
+.width {
+  width: 98%;
+  margin:0 auto;
+  min-width: 800px;
+  background: #fff url(bg-level2.gif) repeat-y -10px bottom;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+}
+
+* html .minwidth {
+  padding-left: 800px;
+  background-color:#fff;
+  }
+/*\*/
+* html .minwidth, * html .layout, * html .container, * html .content {
+  height: 1px;
+  }
+/**/
+
+
+/* Set the default font-size in the body tag and on all your elements to 100% */
+body, p, h1, h2, h3, h4, h5, h6, li, li li {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.clear {
+  height:1px;
+  width:100%;
+  clear:both;
+}
+
+.hidden {
+  visibility:hidden;
+}
+
+
+/* begin template styles */
+
+body {
+  text-align: center;
+  background-color:#f2f2f2;
+}
+
+#wrapper {
+  background-color:#fff;
+  position: relative;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  border-left:1px solid #c0c0c0;
+  border-bottom:1px solid #c0c0c0;
+  border-right:1px solid #c0c0c0;
+}
+
+#masthead {
+  height: 120px;
+  border-bottom:5px solid #096;
+  background-color:#fff;
+}
+
+#masthead h1 {
+  font-weight:bold;
+  font-size:1.5em;
+  color:#004fa7;
+  line-height:1.25em;
+  background-color: #fff;
+}
+#masthead h1 span {
+  color:#666;
+  font-weight:normal;
+  font-size:.65em;
+  color:#666;
+  font-style:italic;
+}
+
+#logoimg {
+  float:left;
+  width:150px;
+  height:120px;
+}
+
+#logotext {
+  padding-top: 1em;
+  text-align: left;
+}
+
+#level2 #masthead {
+  height: 110px;
+  border-bottom:5px solid #069;
+  background-color:#fff;
+  padding-top:10px;
+}
+
+#level2 #masthead h1 {
+}
+
+
+#level2 #logoimg {
+  float: left;
+  width:150px;
+  height:76px;
+}
+
+#level2 #logotext {
+  text-align: left;
+  padding-top: 1.2em;
+}
+
+#toolsnav {
+  font-size:.7em;
+  margin-top:-8.5em;
+  margin-right:.9em;
+  text-align: right;
+}
+
+#toolsnav2 {
+  font-size:.7em;
+  margin-top:-4.4em;
+  margin-right:.9em;
+  text-align: right;
+}
+
+#searchform {
+  margin-top:4.4em;
+  margin-right:.7em;
+  font-size:.85em;
+  text-align: right;
+}
+
+#searchform2 {
+  font-size:.85em;
+  margin-top:1.5em;
+  margin-right:.7em;
+  text-align: right;
+}
+
+
+#searchform .searchbox, #searchform2 .searchbox  {
+  border:1px solid #69c;
+  padding:.25em .2em .25em .2em;
+  width:188px;
+      font-family:arial, helvetica, sans-serif;
+      color:#666; 
+}
+#searchform .searchButton, #searchform2 .searchButton {
+  background-color:#69c;
+  color:#fff;
+  padding:.20em .2em .20em .2em;
+  font-family:arial, helvetica, sans-serif;
+  font-weight:bold;
+  margin-left:2px;
+}
+
+#level2 #searchform {
+  top:40px;
+}
+
+#leftcolumn {
+  float:left;
+  width:150px;
+  background-color:#fff;
+}
+
+#leftcolumn img.logo {
+  width:120px;
+  height:120px;
+}
+
+#mainnav {
+  width:150px;
+  text-align:left;
+}
+
+#mainnav a, #mainnav a:link, #mainnav a:visited {
+  color:#666;
+}
+#mainnav a:hover, #mainnav a:active {
+  color:#004fa7;
+}
+
+#mainnav ul {
+  padding-top:.4em
+}
+
+#mainnav li {
+  border-bottom:1px solid #c0c0c0;
+  line-height:.85em;
+  padding: .55em .6em;
+  font-weight:bold;
+}
+#mainnav li ul li {
+  padding: .25em 0;
+}
+#mainnav li a {
+  font-size:.9em;
+  color:#004fa7;
+}
+#mainnav li a.on, #mainnav li a:visited.on {
+  color:#004fa7;
+  font-weight:bold;
+}
+#mainnav ul li ul {
+  margin:.2em 0 0 0;
+  padding: .15em 0;
+  border-right:none;
+  border-top:none;
+}
+#mainnav ul li ul li {
+  background: transparent url("bullet_style1.gif") no-repeat -.2em .15em;
+  font-size:.9em;
+  font-weight:normal;
+  border-bottom:none;
+  line-height:.75em;
+}
+#mainnav ul li ul li a {
+  padding-left:.8em;
+}
+
+#level2 #mainnav ul {
+
+}
+
+#level2 #mainnav li ul {
+  border-right:none;
+}
+
+#mainpagebody {
+  float:left;
+  width:640px;
+  text-align:left;
+
+}
+
+#level2 #mainpagebody {
+  float:left;
+  width:80%;
+  min-height:500px;
+  text-align:left;
+  background-image:none;
+  background-color:#fff;
+  background: #fff url(bg_mainpagebody.gif) repeat-y 0 bottom;
+}
+
+#focalcontent {
+  background-color:#fff;
+}
+
+img.focalimage {
+  width:401px;
+  height:244px;
+  float:left;
+}
+
+
+.focalcontent h2 {
+  font-weight:bold;
+  padding:1em 1em 0 .9em;
+  margin:0;
+  font-size:.9em;
+}
+
+.focalcontent p {
+  padding:0 1em 1em 1em;
+  font-size:.85em;
+}
+.focalcontent p.more a {
+  font-weight:bold;
+  background: transparent url("bullet_style2.gif") no-repeat 0 .3em;
+  padding: 0 0 0 1.1em;
+  margin:0 .5em 1em 0;
+}
+
+.focalcontent p.more a.border {
+  border-right:1px solid #063;
+}
+
+#mission {
+  background-color:#fff;
+}
+#mission p {
+  padding: 1em 1.75em 1em 1em;
+  font-size:.85em;
+}
+#mission p+p {
+  padding-top: 0; 
+}
+#mission p.more a {
+  font-weight:bold;
+  background: transparent url("bullet_style2b.gif") no-repeat 0 .3em;
+  padding: 0 0 0 1.1em;
+}
+
+#sponsors {
+  background: transparent url("bg_sponsors.jpg") repeat-x 0 bottom;
+  width:233px;
+  padding: 0 1px;
+  margin-left:405px;
+}
+#sponsors img {
+  width:56px;
+  height:44px;
+  margin:0 1px;
+  padding-bottom:2px;
+}
+
+/* content 2nd level pages */
+#content {
+  padding:1.2em;
+  min-height:300px;
+}
+
+
+#content div {
+  font-size:.85em;
+}
+
+#content p {
+  padding-bottom:.65em;
+  font-size:.85em;
+}
+#content h1 {
+  font-weight:bold;
+  font-size:1.35em;
+  color:#69c;
+}
+#content h2 {
+  font-weight:bold;
+  font-size:1.15em;
+  color:#369;
+}
+#content h3 {
+  font-weight:bold;
+  font-size:.85em;
+  color:#036;
+  padding-bottom:.1em;
+  margin-right:1em;
+  margin-bottom:.5em; 
+  border-bottom:1px solid #69c;
+  clear:left;
+}
+
+#content ul {
+  padding-bottom:.25em;
+}
+#content li {
+  background: transparent url("bullet_style3.gif") no-repeat 0 0;
+  padding-left:1.2em;
+  font-size:.85em;
+}
+#content li ul li {
+  background: transparent url("bullet_style4.gif") no-repeat 0 .1em;
+  font-size:100%;
+}
+#content li ul li ul li {
+  background: transparent url("bullet_style5.gif") no-repeat 0 .1em;
+  font-size:100%;
+}
+#content li ul li ul li ul li {
+  background: transparent url("bullet_style6.gif") no-repeat 0 .2em;
+  font-size:100%;
+}
+
+#content .image {
+  background-color:#033;
+}
+
+
+#content .image p {
+  color:#fff;
+  font-family: arial, sans-serif;
+  font-size:.65em;
+  padding:.5em 1em;
+}
+
+#content .photo a,
+#content .photo a:link,
+#content .photo a:visited,
+#content .photo a:hover,
+#content .photo a:active {
+  color:#cfc;
+}
+
+.floatrt {float:right; margin:1em 0 1em 1em;}
+.floatlt {float:left; margin:1em 1em 1em 0;}
+
+.larger {
+  font-size:115%;
+}
+
+/* footer */
+ 
+#footer {
+  background-color: #ededed;
+  padding: 1em 1.75em 1em 1em;
+  border-top:3px solid #069;
+}
+#footer p {
+  font-size:.7em;
+  padding-bottom:.5em;
+}
+
+/* wiki specialities */
+div.thumb {
+  margin-bottom: .5em;
+  border-style: solid;
+  border-color: white;
+  width: auto;
+}
+div.thumb div {
+  border: 1px solid #ccc;
+  padding: 3px !important;
+  background-color: #f9f9f9;
+  font-size: 94%;
+  text-align: center;
+  overflow: hidden;
+}
+div.thumb div a img {
+}
+
+
+div.thumb div div.thumbcaption {
+        color:#243;
+  border: none;
+  text-align: left;
+  line-height: 1.4em;
+  padding: .3em 0 .1em 0;
+    ackground-color: #9cf;
+}
+
+.tright {
+  float:right;
+  margin:0em .6em 1em 1em;
+}
+
+.tleft {
+  float:left;
+  margin:0em 1em 1em 0em;
+}
+
+.floatright {
+  float:right;
+  margin:.5em 1em 1em 1em;
+
+}
+
+.floatleft {
+  float:left;
+  margin:.5em 1em 1em 0;
+
+}
+.printfooter {
+  display: none;
+}
+
+.editsection {
+  display: none;
+}
+

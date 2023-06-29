@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="The National Alliance for Medical Imaging Computing (NA-MIC) is a multi-institutional, interdisciplinary team of computer scientists, software engineers, and medical investigators who develop computational tools for the analysis and visualization of medical image data." />
+  <meta name="verify-v1" content="vl0tdCRsQZ9vULiVvn9elxpEtxbEkrjnyXLaL5tBOuk=" />
+  <title>National Alliance for Medical Image Computing</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/basic.css" />
+  <style type="text/css" media="screen">@import url(css/styles.css);</style>
+  <!--[if lte IE 6]><style type="text/css" media="all">@import "/css/ie.css";</style><![endif]-->
+  <link rel="icon" href="/img/animated_favicon1.gif" type="image/x-icon" />
+
+<!-- gallery stuffs -->
+  <link rel="stylesheet" type="text/css" media="screen" href="css/gallery.css" />
+  <script type="text/javascript" src="css/e2_gallery/mootools.v1.11.js"></script>
+  <script type="text/javascript" src="css/e2_gallery/e2photo.js"></script>
+  <script type="text/javascript" src="css/e2_gallery/styleswitcher.js"></script>
+  <script type="text/javascript" src="css/e2_gallery/e2photo2.js"></script>
+  <script type="text/JavaScript">
+  var maximagewidth=488;
+  var maximageheight=329;
+  var transspeed=10;
+  var fadespeed=10;
+  var firstimagewidth=488;
+  var firstimageheight=329;
+  var tempgallery = new Array()
+
+
+  tempgallery[0]=['img/gallery/Gomes-JMI-SPIE2015-fig1.jpg', '490', '330', '', '', '', '', 'Diagnostic Index of 3D Osteoarthritic Changes in TMJ Condylar Morphology. <a href="http://www.spl.harvard.edu/publications/item/view/2738">Read more...</a>', '0', '490','330','img/gallery/Gomes-JMI-SPIE2015-fig1.jpg']
+        tempgallery[1]=['img/gallery/Irimia-JNeurosurgSci2014-fig2.png', '490', '330', '', '', '', '', 'Structural and Connectomic Neuroimaging for the Personalized Study of Longitudinal Alterations in Cortical Shape, Thickness and Connectivity after Traumatic Brain Injury. <a href="http://www.spl.harvard.edu/publications/item/view/2600">Read more...</a>', '1', '490','330','img/gallery/Irimia-JNeurosurgSci2014-fig2.png']
+  tempgallery[2]=['img/gallery/Batmanghelich-IPMI2013-fig1.jpg', '490', '330', '', '', '', '', 'Joint Modeling of Imaging and Genetics. <a href="http://www.spl.harvard.edu/publications/item/view/2430">Read more...</a>', '2', '490','330','img/gallery/Batmanghelich-IPMI2013-fig1.jpg']
+  tempgallery[3]=['img/gallery/Kim-JNeurosciMethods2013-fig6.png', '490', '330', '', '', '', '', 'Adaptive Prior Probability and Spatial Temporal Intensity Change Estimation for Segmentation of the One-Year-Old Human Brain. <a href="http://www.spl.harvard.edu/publications/item/view/2305">Read more...</a>', '3', '490','330','img/gallery/Kim-JNeurosciMethods2013-fig6.png']
+  tempgallery[4]=['img/gallery/Pinter-MedicalPhysics2012-fig5.png', '490', '330', '', '', '', '', 'Dose accumulation module in a standard 3D Slicer layout. <a href="http://www.spl.harvard.edu/publications/item/view/2273">Read more...</a>', '4', '490','330','img/gallery/Pinter-MedicalPhysics2012-fig5.png']
+  tempgallery[5]=['img/gallery/VanHorn-PlosOne2012-fig1.png', '490', '330', '', '', '', '', 'Modeling the path of the tamping iron through the Gage skull and its effects on white matter structure. <a href="http://www.spl.harvard.edu/publications/item/view/2168">Read more...</a>', '5', '490','330','img/gallery/VanHorn-PlosOne2012-fig1.png']
+  tempgallery[6]=['img/gallery/Langs-NeuroImage2011-fig7.png', '490', '330', '', '', '', '', 'Detecting Stable Distributed Patterns of Brain Activation using Gini Contrast. <a href="http://www.spl.harvard.edu/publications/item/view/1975">Read more...</a>', '6', '490','330','img/gallery/Langs-NeuroImage2011-fig7.png']
+  tempgallery[7]=['img/gallery/Walterfang-PsychiatryRes2011.png', '490', '330', '', '', '', '', 'Shape Alterations in the Striatum in Chorea-acanthocytosis. <a href="http://www.spl.harvard.edu/publications/item/view/2019">Read more...</a>', '7', '490','330','img/gallery/Walterfang-PsychiatryRes2011.png']
+  tempgallery[8]=['img/gallery/FullBodyGeoAnat.png', '490', '330', '', '', '', '', 'NA-MIC geo-anatomical map: <a href="wiki/Driving_Biological_Projects">DBPs</a> | <a href="wiki/NA-MIC_External_Collaborations">Collaborations</a>', '8', '490', '330','img/gallery/FullBodyGeoAnat.png']
+  tempgallery[9]=['img/gallery/GTTubSurfaceSeg.png', '490', '330', '', '', '', '', 'Tubular Surface Segmentation Framework. <a href="wiki/Projects:TubularSurfaceSegmentation">Read more...</a>', '9', '490', '330','img/gallery/GTTubSurfaceSeg.png']
+  tempgallery[10]=['img/gallery/LeftHem.png', '490', '330', '', '', '', '', 'Learning Task-Optimal Registration Cost Functions. <a href="wiki/Projects:LearningRegistrationCostFunctions">Read more...</a>', '10', '490', '330','img/gallery/LeftHem.png']
+  tempgallery[11]=['img/gallery/SlicerBrainModels.png', '490', '330', '', '', '', '', 'NA-MIC Kit <a href="wiki/NA-MIC-Kit">Read more...</a>', '11', '490', '330','img/gallery/SlicerBrainModels.png']
+  tempgallery[12]=['img/gallery/BasisMembership.png', '490', '330', '', '', '', '', 'Multiscale Shape Analysis applied to Caudate and Hippocampus. <a href="wiki/Projects:MultiscaleShapeAnalysis">Read more...</a>', '12', '490', '330','img/gallery/BasisMembership.png']
+  tempgallery[13]=['img/gallery/CatesNamicFig3.png', '490', '330', '', '', '', '', 'Shape Modeling and Analysis with Particle Systems. <a href="wiki/Projects:ParticlesForShapesAndComplexes">Read more...</a>', '13', '490', '330','img/gallery/CatesNamicFig3.png']
+  tempgallery[14]=['img/gallery/UtahAtlasSegmentation.png', '490', '330', '', '', '', '', 'Atlas Based Classification (ABC) for Healthy Brain MRI.  <a href="wiki/Projects:UtahAtlasSegmentation">Read more...</a>', '14', '490', '330','img/gallery/UtahAltasSegmentation.png']
+  tempgallery[15]=['img/gallery/Utah2.png', '490', '330', '', '', '', '', 'Quantitative Tract Analysis. <a href="wiki/Algorithm:UNC:DTI">Read more...</a>', '15', '490', '330','img/gallery/Utah2.png']
+  tempgallery[16]=['img/gallery/LMIPNLimage.png', '490', '330', '', '', '', '', 'Local white matter geometry from diffusion tensor gradients. <a href="wiki/Projects:WhiteMatterGeometryDTGradients">Read more...</a>', '16', '490', '330','img/gallery/LMIPNLimage.png']
+  tempgallery[17]=['img/gallery/Lupus.png', '490', '330', '', '', '', '', 'Brain Lesion Analysis in Neuropsychiatric Systemic Lupus Erythematosus. <a href="wiki/DBP2:MIND:Roadmap">Read more...</a>', '17', '490', '330','img/gallery/Lupus.png']
+  tempgallery[18]=['img/gallery/ThalamusAlgoOutline.png', '490', '330', '', '', '', '', 'DTI-based Segmentation. <a href="wiki/Projects:DTISegmentation">Read more...</a>', '18', '490', '330','img/gallery/ThalamusAlgoOutline.png']
+  tempgallery[19]=['img/gallery/TRPBTarget3DView.png', '490', '330', '', '', '', '', 'Transrectal MRI-guided Robotic Prostate Biopsy. <a href="wiki/DBP2:JHU:Roadmap">Read more...</a>', '19', '490', '330','img/gallery/TRPBTarget3DView.png']
+  </script>
+</head>
+
+<body>
+<div id="home">
+<div id="wrapper">
+<div id="masthead">
+  <div id="logoimg">
+    <img src="img/NAMIC_380x463-2.jpg" class="logo" alt="National Alliance for Medical Image Computing" />
+  </div>
+  <div id="logotext">
+    <h1>National Alliance for Medical Image Computing<br />
+    <span class="logoline2">A National Center for Biomedical Computing</span><br>
+<span class="logoline3">Funded under the NIH Roadmap Initiative</span></h1>
+  </div>
+  <div id="toolsnav" class="hidden">
+    <p><a href="#">Home</a> | <a href="#">Contact Us</a> | <a href="#">Credits</a></p>
+  </div>
+<!-- search NAMIC -->
+  <div id="searchform">
+<!--
+    <form action="#" method="post"><input type="text" class="searchbox" value="search" /><input type="submit" value="GO" class="searchsubmit" />
+    </form>
+-->
+<!-- Google CSE Search Box Begins -->
+  <form id="searchbox_016969970108688557687:g2l7qhn02zi" action="https://google.com/cse">
+      <input type="hidden" name="cx" value="016969970108688557687:g2l7qhn02zi" />
+      <input id="searchInput" class="searchbox" name="q" type="text" size="14" />
+      <input class="searchButton" type="submit" name="sa" value="Search" />
+      <input type="hidden" name="cof" value="FORID:0" />
+
+      </form>
+      <script type="text/javascript" src="https://google.com/coop/cse/brand?form=searchbox_016969970108688557687:g2l7qhn02zi"></script>
+<!-- Google CSE Search Box Ends -->
+  </div>
+</div>
+<!-- END masthead -->
+
+<div id="leftcolumn">
+  <div id="mainnav">
+<ul>
+      <li style="margin-top:-.6em; margin-bottom:-.4em; font-size:.85em; padding-left:10px;"><a href="wiki/Main_Page" class="on">NA-MIC Wiki</a></li>
+    </ul>
+    <ul>
+      <li>General         <ul>
+            <li><a href="wiki/Overview">Overview</a></li>
+            <li><a href="wiki/About_NA-MIC">Organization</a></li>
+            <li><a href="wiki/Contact_NA-MIC">Contact Us</a></li>
+    </ul>
+        </li>
+          <li>Center Components         <ul>
+
+       <li><a href="wiki/Algorithms">Algorithms</a></li>
+            <li><a href="wiki/Engineering">Engineering</a></li>
+            <li><a href="wiki/Driving_Biological_Projects">Driving Biological Projects</a></li>
+            <li><a href="wiki/CollabGrants">Collaboration Grants</a></li>
+          </ul>
+        </li>
+          <li>Resources         <ul>
+
+        <li><a href="http://www.spl.harvard.edu/publications/pages/display/?collection=12">Publication DB</a></li>
+        <li><a href="http://www.spl.harvard.edu/publications/gallery?entriesPerPage=10&selectedCollection=12">Image Gallery</a></li>
+        <li><a href="wiki/Downloads">Downloads</a></li>
+        <li><a href="wiki/Service">Service</a></li>
+        <li><a href="wiki/Training">Training</a></li>
+        <li><a href="wiki/Dissemination">Dissemination</a></li>
+        <li><a href="wiki/Events">Events</a></li>
+        <li><a href="wiki/Links">Links</a></li>
+
+          </ul>
+        </li>
+        </ul>
+    </div>
+<!-- END mainnav -->
+</div>
+<!-- END leftcolumn -->
+
+<div id="mainpagebody">
+  <div id="homepagecentercolumn">
+
+<div class="e2_photo_gallery">
+
+    <!-- Gallery -->
+             <div id="left_text" style="color:black;font-size:10px;position:absolute;width:180px;background-color:#dae0e3;">
+      </div>
+      <div id="gallery" align="center">
+      <div style="display:none;" id="variable_js" path="">
+      </div>
+      <!--Main Image Here-->
+      <div id="main_image_wrapper">
+      <div id="iptc_btn"></a></div>
+          <div id="imgloader">
+
+     <div id="pn_overlay2" style="cursor:pointer;" onclick="javascript:fullres(current_imgid);">
+     </div>
+
+      </div>
+      <div align="center" class="spacing"> </div>
+      <!--End Main Image-->
+</div>
+       <div id="iptc_info" >
+      </div>
+
+
+      <script type="text/JavaScript">
+document.getElementById('iptc_info').innerHTML=returniptc(tempgallery[0]);
+</script>
+      <div id="blank_space"></div>
+      <div align="center" class="spacing"> </div>
+      <div id="thumbhide">
+       <div id="thumbbox">
+
+      <div id="thumb_container" >
+        <div id="thumbgall">
+        <div id="thumbs">
+          <div id="widthbox">
+
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 0, '0', current_imgid);return false;"><img src="img/gallery/Gomes-JMI-SPIE2015-fig1-thumb.png" class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 1, '1', current_imgid);return false;"><img src="img/gallery/Irimia-JNeurosurgSci2014-fig2-thumb.png" class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 2, '2', current_imgid);return false;"><img src="img/gallery/Batmanghelich-IPMI2013-fig1-thumb.jpg" class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 3, '3', current_imgid);return false;"><img src="img/gallery/Kim-JNeurosciMethods2013-fig6-thumb.png" class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 4, '4', current_imgid);return false;"><img src="img/gallery/Pinter-MedicalPhysics2012-fig5-thumb.png" class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 5, '5', current_imgid);return false;"><img src="img/gallery/VanHorn-PlosOne2012-fig1-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 6, '6', current_imgid);return false;"><img src="img/gallery/Langs-NeuroImage2011-fig7-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 7, '7', current_imgid);return false;"><img src="img/gallery/Walterfang-PsychiatryRes2011-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 8, '8', current_imgid);return false;"><img src="img/gallery/FullBodyGeoAnat-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 9, '9', current_imgid);return false;"><img src="img/gallery/GTTubSurfaceSeg-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 10, '10', current_imgid);return false;"><img src="img/gallery/LeftHem-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 11, '11', current_imgid);return false;"><img src="img/gallery/SlicerBrainModels-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 12, '12', current_imgid);return false;"><img src="img/gallery/BasisMembership-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 13, '13', current_imgid);return false;"><img src="img/gallery/CatesNamicFig-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 14, '14', current_imgid);return false;"><img src="img/gallery/UtahAtlasSegmentation-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 15, '15', current_imgid);return false;"><img src="img/gallery/Utah2Thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 16, '16', current_imgid);return false;"><img src="img/gallery/LMIPNLimage-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 17, '17', current_imgid);return false;"><img src="img/gallery/Lupus-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 18, '18', current_imgid);return false;"><img src="img/gallery/ThalamusAlgoOutline-thumb.png"  class="toolTipImg" /></a>
+<a href='#' onclick="getstarted(490, 330, 'imgloader', 19, '19', current_imgid);return false;"><img src="img/gallery/TRPBTarget3DView-thumb.png"  class="toolTipImg" /></a>
+</div>
+</div>
+        </div>
+        </div>
+      </div>
+      <div id="back2">
+        <script type="text/javascript">if(tempgallery.length>maxthumbvisible){document.write("<div id='leftmore2'><ul><li><a href=\"javascript:;\" onclick=\"leftthumb();\" ><img src='css/e2_gallery/rsrc/buttonblank.gif' width='27' height='57' border='0' /></a></li></ul></div>");}</script>
+      </div>
+      <div id="more2">
+        <script type="text/javascript">
+        if(tempgallery.length>maxthumbvisible){document.write("<div id='rightmore2'><ul><li><a href=\"javascript:;\" onclick=\"rightthumb();\"><img src='css/e2_gallery/rsrc/buttonblank.gif' width='27' height='57' border='0' /></a></li></ul></div>");}</script>
+      </div>
+      </div>
+      </div>
+      <div align="center" class="spacing"> </div>
+      <div  style="display:none;" id="imgtitle"></div>
+        <div align="right" id="photocount"> <script type="text/javascript">document.write("1 of "+tempgallery.length+" Photos <br />");</script> </div>
+    </div>
+    <!-- end Gallery -->
+ <div class="ft"><div class="c"></div></div>
+ <!-- </div> -->
+<!-- END focalcontent -->
+
+    <div id="mission">
+      <p><b>The National Alliance for Medical Image Computing (NA-MIC)</b> is a multi-institutional, interdisciplinary team of computer scientists, software engineers, and medical investigators who develop computational tools for the analysis and visualization of medical image data. The purpose of the Center is to provide the infrastructure  and environment for the development of computational algorithms and open-source technologies, and then  oversee the training and dissemination of these tools to the medical research community. </p>
+
+                  <p><!--Supported by the National Institutes of Health, <a href="http://commonfund.nih.gov/bioinformatics/">Roadmap Initiative-->
+NA-MIC is a national research center supported by grant U54 EB005149 from the NIBIB NIH HHS Roadmap for Medical Research Program.
+
+
+                  <p>Information about collaborating with NA-MIC is available <a href="wiki/Collaborator:Resources">on our wiki</a>.</p>
+</p>
+
+</br>
+    </div>
+<!-- END mission -->
+  </div>
+<!-- END homepagecentercolumn -->
+
+<div id="homepagerightcolumn">
+
+<a href="wiki/2017_Summer_Project_Week"><img src="img/news/PW-Winter2017.png"  width="120px" ALT="PW-Winter2017"></a>
+<br>
+<h3><a href="wiki/2017_Summer_Project_Week">25th Project Week Event</a></h3>
+<p>
+The 25th NA-MIC Project Week open source hackathon is being held during the week of <b>June 26-30, 2017</b>, in Catanzaro Lido, Italy.</p>
+<p class="more"><a href="wiki/2017_Summer_Project_Week"> Read more...</a></p>
+<p class="more smaller noborder"><a href="wiki/NewsArchive">NEWS ARCHIVE</a></p>
+</div>
+<!-- END homepagerightcolumn -->
+</div>
+<!-- END mainpagebody -->
+
+<br class="clear" />
+<div id="footer">
+      <p>Content of this site is Copyright <script type="text/javascript">
+var currentTime = new Date()
+var year = currentTime.getFullYear()
+document.write(year)
+//-->
+</script> National Alliance for Medical Image Computing, unless otherwise noted.<br />
+Contact <a href="mailto:webmaster@na-mic.org">webmaster@na-mic.org</a> for questions about the use of this site's content.<br />
+See <a href="https://www.spl.harvard.edu/pages/Wiki2Web">here</a> for more information about the web infrastructure.</p>
+
+    </div>
+
+<!-- END footer -->
+</div>
+<!-- END container -->
+</div>
+<!-- END layout -->
+</div>
+<!-- END minwidth -->
+</div>
+<!-- END width  -->
+</div>
+<!-- END level2 -->
+</body>
+</html>
+

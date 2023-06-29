@@ -1,0 +1,31 @@
+.focalcontenttext {
+  width:185px;
+  height:195px;
+  float:right;
+  margin:20px 13px 20px 0;
+
+}
+
+#searchform .searchsubmit, #searchform2 .searchsubmit {
+  padding:.12em .2em .12em .2em;
+}
+
+
+
+#content li {
+  background: transparent url("../img/bullet_style3.gif") no-repeat 0 .2em;
+  padding-left:1.2em;
+  font-size:.85em;
+}
+#content li ul li {
+  background: transparent url("../img/bullet_style4.gif") no-repeat 0 .3em;
+  font-size:100%;
+}
+#content li ul li ul li {
+  background: transparent url("../img/bullet_style5.gif") no-repeat 0 .2em;
+  font-size:100%;
+}
+#content li ul li ul li ul li {
+  background: transparent url("../img/bullet_style6.gif") no-repeat 0 .3em;
+  font-size:100%;
+}
